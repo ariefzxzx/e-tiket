@@ -370,13 +370,13 @@ button{
 
   .footer {
     width: 100%;
-    height: 50px;
+    margin-top: 137px;
     background-color: #25677c;
     display: flex;
     border-radius: 40px 40px 0px 0px;
     position: absolute;
 
-    margin-top: 20px;
+
   }
 
   .footer a {
