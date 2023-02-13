@@ -1,0 +1,508 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #3a9ec0;
+}
+
+/* dekstop */
+
+/* navbar */
+
+.profile-pitcure img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4aadce;
+  /* padding: .8rem; */
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  width: 100%;
+  top: 0;
+  position: absolute;
+}
+
+.your-name,
+.pp {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.your-name {
+  margin-left: 1rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.pp {
+  display: flex;
+  margin-right: 1rem;
+}
+
+/* end navbar */
+
+/* bg kotak */
+
+.kotak {
+  width: 100%;
+  height: 650px;
+  background-color: white;
+  border-radius: 100px 100px 0px 0px;
+  margin-top: 70px;
+  /* opacity: 50%; */
+  /* bottom: 0; */
+  position: relative;
+}
+/* end bg kotak */
+
+/* search */
+
+.t1 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+.c1 {
+  display: flex;
+  margin-top: 50px;
+}
+.search {
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
+.cari {
+  width: 20rem;
+  height: 30px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.w-cari {
+  display: flex;
+  border: 1px solid none;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.icon {
+  align-items: center;
+  margin-right: 10px;
+}
+
+/* end search */
+
+/* c2 */
+
+.c2-wrap {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-top: -30px;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 30px;
+  padding: 27px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  width: 40em;
+}
+
+.bold {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.bungkus {
+  justify-content: center;
+  display: flex;
+
+}
+
+.harga,
+.harga2 {
+  margin-right: 50px;
+}
+
+/* c2 end */
+
+/* c3 */
+
+.krl {
+  background-color: #4aadce;
+  overflow: hidden;
+  border-radius: 30px;
+  margin-top: 60px;
+  position: relative;
+  margin-right: 70px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 29px;
+  
+  
+}
+
+.krl1 {
+  background-color: #4aadce;
+  overflow: hidden;
+  border-radius: 30px;
+  margin-top: 60px;
+  margin-right: 70px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 20px;
+  
+}
+.krl2 {
+  background-color: #4aadce;
+  overflow: hidden;
+  border-radius: 30px;
+  margin-top: 60px;
+  margin-right: 70px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 20px;
+}
+.krl3 {
+  background-color: #4aadce;
+  overflow: hidden;
+  border-radius: 30px;
+  margin-top: 60px;
+  margin-right: 70px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.bungkus-c3 {
+  margin-top: 30px;
+  /* padding: 20px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.text-c3 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.bth {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  position: absolute;
+}
+.bth:hover {
+  transform: scale(110%);
+  text-decoration: underline;
+}
+
+/* c3end */
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #25677c;
+  display: flex;
+  border-radius: 40px 40px 0px 0px;
+}
+
+.footer a {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: none;
+}
+
+.bth-icon {
+  color: #4cd2ff;
+}
+
+/* dekstop end */
+
+/* navbar */
+
+/* .menu ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.menu ul li{
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    
+    
+}
+.menu ul li:hover{
+    text-decoration: underline;
+    
+
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+/* end navbar */
+
+/* content 1 */
+
+/* end content1 */
+
+/* c2 */
+
+/* c2 end */
+
+/* c3 */
+
+/* c3end */
+
+/* breakpoin */
+
+@media screen and (max-width: 500px) {
+  /* navbar */
+
+  .profile-pitcure img {
+    border-radius: 50%;
+    width: 40px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4aadce;
+    /* padding: .8rem; */
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    width: 100%;
+    top: 0;
+    position: absolute;
+  }
+
+  .your-name,
+  .pp {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .your-name {
+    margin-left: 1rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .pp {
+    display: flex;
+    margin-right: 1rem;
+  }
+
+  /* end navbar */
+
+  /* bg kotak */
+
+  .kotak {
+    width: 100%;
+    height: 1580px;
+    background-color: white;
+    border-radius: 100px 100px 0px 0px;
+    margin-top: 70px;
+    /* opacity: 50%; */
+    /* bottom: 0; */
+    position: relative;
+  }
+  /* end bg kotak */
+
+  /* search */
+
+  .t1 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+  .c1 {
+    display: flex;
+    margin-top: 50px;
+  }
+  .search {
+    margin: auto;
+    margin-top: 1.5rem;
+  }
+
+  .cari {
+    width: 20rem;
+    height: 30px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .w-cari {
+    display: flex;
+    border: 1px solid none;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .icon {
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  /* end search */
+
+  /* c2 */
+
+  .c2-wrap {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    max-width: 20rem;
+    padding: 20px;
+    margin-top: -30px;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 30px;
+    padding: 27px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+  }
+
+  .bold {
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  .bungkus {
+    justify-content: center;
+    display: flex;
+  }
+
+  .harga,
+  .harga2 {
+    margin-right: 50px;
+  }
+
+  /* c2 end */
+
+  /* c3 */
+
+  .krl {
+    background-color: #4aadce;
+    overflow: hidden;
+    border-radius: 30px;
+    margin-top: 60px;
+    position: relative;
+    margin-right: 70px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 29px;
+  }
+
+  .krl1 {
+    background-color: #4aadce;
+    overflow: hidden;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-right: 70px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .bungkus-c3 {
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .text-c3 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .bth {
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    position: absolute;
+  }
+  .bth:hover {
+    transform: scale(110%);
+    text-decoration: underline;
+  }
+
+  /* c3end */
+
+  .footer {
+    width: 100%;
+    height: 50px;
+    background-color: #25677c;
+    display: flex;
+    border-radius: 40px 40px 0px 0px;
+  }
+
+  .footer a {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: none;
+  }
+
+  .bth-icon {
+    color: #4cd2ff;
+  }
+}
+
+/*  */

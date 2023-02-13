@@ -1,0 +1,463 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #3a9ec0;
+}
+
+
+/* dekstop */
+  .title-utama {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Poppins";
+    font-weight: 700;
+    color: white;
+  }
+
+  .gambar-kereta {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  /* navbar */
+
+  /* bg kotak */
+
+  .kotak {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    border-radius: 100px 100px 0px 0px;
+    /* margin-top: 70px; */
+    /* opacity: 50%; */
+    /* bottom: 0; */
+    position: absolute;
+    /* justify-content: center;
+        align-items: center;
+        display: flex;      */
+    display: flex;
+    margin-top: 200px;
+  }
+
+  .w-tujuan {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .isi-tujuan {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .s1 {
+    margin-bottom: 10px;
+  }
+
+  .text-tujuan select {
+    border: none;
+    border: 1px solid #3a9ec0;
+    padding: 3px;
+    border-radius: 10px;
+  }
+
+  .icon {
+    padding-right: 30px;
+    color: salmon;
+  }
+
+  .wrapper-tujuan {
+    border: 2px solid #3a9ec0;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -150px;
+    font-family: "Poppins";
+    font-weight: 600;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .b-waktu,
+  .b2 {
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  .waktu {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  .waktu p,
+  .b2 p {
+    margin-left: 10px;
+  }
+
+  .code {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+  }
+
+  .w-top {
+    display: flex;
+    margin-top: 30px;
+    padding: 0px 5px 0px 5px;
+  }
+
+  .qr {
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .code p {
+    color: white;
+    margin: auto;
+    font-size: 1.5rem;
+  }
+
+  .bunkusaaa {
+    font-weight: 400;
+  }
+
+  .pembayaran {
+    position: relative;
+    margin-top: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .pembayaran h1 {
+    font-family: "Poppins";
+    margin-bottom: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .pembayaran input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #3a9ec0;
+  }
+
+
+  .input:focus{
+    outline: none;
+    border: 2px solid red;
+  }
+
+  .type {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .type button {
+    border: none;
+    padding: 15px;
+    color: white;
+    background-color: #3a9ec0;
+    border-radius: 10px;
+    width: 100px;
+  }
+
+  .type button:focus {
+    background-color: #266a81;
+  }
+
+  .type p {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .finis {
+    display: flex;
+  }
+
+  .finis button {
+    margin: auto;
+    border: none;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    background-color: #3a9ec0;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+  }
+
+  .finis button:active {
+    background-color: #266a81;
+  }
+
+
+
+/* dekstop */
+
+/* navbar */
+
+/* .menu ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.menu ul li{
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    
+    
+}
+.menu ul li:hover{
+    text-decoration: underline;
+    
+
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+/* end navbar */
+
+/* content 1 */
+
+/* end content1 */
+
+/* c2 */
+
+/* c2 end */
+
+/* c3 */
+
+/* c3end */
+
+/* breakpoin */
+
+@media screen and (max-width: 500px) {
+  .title-utama {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Poppins";
+    font-weight: 700;
+    color: white;
+  }
+
+  .gambar-kereta {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  /* navbar */
+
+  /* bg kotak */
+
+  .kotak {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    border-radius: 100px 100px 0px 0px;
+    /* margin-top: 70px; */
+    /* opacity: 50%; */
+    /* bottom: 0; */
+    position: absolute;
+    /* justify-content: center;
+        align-items: center;
+        display: flex;      */
+    display: flex;
+    margin-top: 200px;
+  }
+
+  .w-tujuan {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .isi-tujuan {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .s1 {
+    margin-bottom: 10px;
+  }
+
+  .text-tujuan select {
+    border: none;
+    border: 1px solid #3a9ec0;
+    padding: 3px;
+    border-radius: 10px;
+  }
+
+  .icon {
+    padding-right: 30px;
+    color: salmon;
+  }
+
+  .wrapper-tujuan {
+    border: 2px solid #3a9ec0;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -150px;
+    font-family: "Poppins";
+    font-weight: 600;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .b-waktu,
+  .b2 {
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  .waktu {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  .waktu p,
+  .b2 p {
+    margin-left: 10px;
+  }
+
+  .code {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+  }
+
+  .w-top {
+    display: flex;
+    margin-top: 30px;
+    padding: 0px 5px 0px 5px;
+  }
+
+  .qr {
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .code p {
+    color: white;
+    margin: auto;
+    font-size: 1.5rem;
+  }
+
+  .bunkusaaa {
+    font-weight: 400;
+  }
+
+  .pembayaran {
+    position: relative;
+    margin-top: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .pembayaran h1 {
+    font-family: "Poppins";
+    margin-bottom: 5px;
+  }
+
+  .pembayaran input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #3a9ec0;
+  }
+
+  .type {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .type button {
+    border: none;
+    padding: 15px;
+    color: white;
+    background-color: #3a9ec0;
+    border-radius: 10px;
+    width: 100px;
+  }
+
+  .type button:focus {
+    background-color: #266a81;
+  }
+
+  .type p {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .finis {
+    display: flex;
+  }
+
+  .finis button {
+    margin: auto;
+    border: none;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    background-color: #3a9ec0;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+  }
+
+  .finis button:active {
+    background-color: #266a81;
+  }
+
+  /*  */
+
+  /*  */
+
+  /* end bg kotak */
+}
+
+/*  */
