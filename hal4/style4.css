@@ -8,6 +8,20 @@ body {
   background-color: #3a9ec0;
 }
 
+::-webkit-scrollbar{
+  width: 14px;
+}
+
+::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #86d6f0;
+  border-radius: 15px;
+  
+}
+
 
 /* dekstop */
   .title-utama {
@@ -30,7 +44,7 @@ body {
 
   .kotak {
     width: 100%;
-    height: 600px;
+    height: 617px;
     background-color: white;
     border-radius: 100px 100px 0px 0px;
     /* margin-top: 70px; */

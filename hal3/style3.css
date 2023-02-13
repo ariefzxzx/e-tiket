@@ -8,7 +8,25 @@ body {
   background-color: #3a9ec0;
 }
 
+::-webkit-scrollbar{
+  width: 14px;
+}
+
+::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #86d6f0;
+  border-radius: 15px;
+  
+}
+
 /* desktop */
+
+button{
+  cursor:pointer;
+}
 
 .grid{
     display: grid;
